@@ -1,0 +1,101 @@
+/*produtos*/
+
+.grid-container {
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+
+}
+
+.grid-container h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 0;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #0f9eeaff, #30b7eeff, #002d64ff, #002d64ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grid-container .box .grid-item .img img {
+    width: 230px;
+    padding-top: 50px;
+
+}
+
+.grid-container .box {
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px 0;
+    text-align: center;
+    padding: 10px 20px;
+    background: #fff;
+    row-gap: 70px;
+}
+
+.grid-container .box .grid-item {
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 0 10px #016cbcff;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.322);
+    margin-left: 10%;
+}
+
+.grid-container .box .grid-item:hover {
+    background-color: #6ad2f5ff;
+    transform: scale(1.03);
+}
+
+.descricao h3 {
+    color: rgb(0, 45, 100);
+}
+
+.img img:hover {
+    transform: scale(0.90);
+}
+
+.grid-item i {
+    display: flex;
+    padding: 20px;
+
+}
+
+.dois {
+    margin: 20px;
+}
+
+.doisg {
+    margin-top: 40px;
+}
+
+.tres {
+    margin-bottom: 90px;
+}
+
+.descricao {
+    margin-top: 10px;
+}
+
+.descricao3 {
+    margin-top: 29px;
+}
+
+.descricao3 h3 {
+    color: #002d64ff
+}
+
+.descricao6 {
+    margin-top: -10px;
+}
+
+.descricao6 h3 {
+    color: #002d64ff
+}
+
+.descricaoi h3 {
+    color: #002d64ff
+}
